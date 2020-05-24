@@ -5,10 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laboratório - Prática 03 - Exercício 03</title>
+    <link rel="stylesheet" href="./styles/pratica03exercicio03.css">
 </head>
 
 <body>
+    <script>
+        //Ler os valores:
+        var n1 = prompt("Informe o primeiro número: ");
+        var n2 = prompt("Informe o segundo número: ");
 
+        //Converter os valores de "string" para "inteiro"
+        n1 = parseInt(n1);
+        n2 = parseInt(n1);
+
+        //Calcular os resultados das operações
+        var soma = n1 + n2;
+        var subtracao = n1 - n2;
+        var multiplicacao = n1 * n2;
+        var divisao = n1 / n2;
+        var resto = n1 % n2;
+
+        //Apresentar os números informados:
+        document.write("<div class='numero'> Primeiro número: " + n1 + " .");
+    </script>
 </body>
 
 </html>
