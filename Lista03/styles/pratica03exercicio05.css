@@ -1,4 +1,15 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 h1 {
     color: blueviolet;
     text-align: center;
+}
+
+#calculo {
+    color: darkblue;
+    background-color: gray;
+    font-size: 2rem;
+    margin: 1rem;
 }
