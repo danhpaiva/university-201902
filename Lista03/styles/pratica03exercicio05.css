@@ -5,11 +5,11 @@ html {
 h1 {
     color: blueviolet;
     text-align: center;
+    font-size: 3rem;
 }
 
 #calculo {
     color: darkblue;
-    background-color: gray;
     font-size: 2rem;
     margin: 1rem;
 }

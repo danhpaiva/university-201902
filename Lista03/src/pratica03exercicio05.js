@@ -18,4 +18,5 @@ document.write("<br>");
 //Cálculo do Logarítmo
 logaritmo = Math.log(numero1) / Math.log(numero2);
 
+document.write("<br>");
 document.write("Resultado Logarítmo: " + logaritmo + " .");
