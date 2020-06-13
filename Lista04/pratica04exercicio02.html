@@ -8,7 +8,16 @@
 </head>
 
 <body>
-
+    <script>
+        var resp = confirm("Executar o aplicativo?");
+        if (resp == true) {
+            var n = parseInt(prompt("Informe um número: "));
+            if (n % 2 == 0)
+                console.log("O número " + n + " é par!");
+            else
+                console.log("O número " + n + " é ímpar!");
+        }
+    </script>
 </body>
 
 </html>
