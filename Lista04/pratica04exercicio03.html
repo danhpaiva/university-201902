@@ -8,7 +8,30 @@
 </head>
 
 <body>
+    <script>
+        var operacao = parseInt(prompt("Informe o código da operação desejada: \n" +
+            "[1] Somar. \n" +
+            "[2] Subatrair. \n" +
+            "[3] Multiplicar. \n" +
+            "[4] Dividir."));
 
+        var n1 = parseInt(prompt("Informe o primeiro número: "));
+        var n2 = parseInt(prompt("Informe o segundo número: "));
+
+        switch (operacao) {
+            case 1:
+                console.log(n1 + " + " + n2 + " = " + (n1 + n2));
+                break;
+            case 2:
+                console.log(n1 + " - " + n2 + " = " + (n1 - n2));
+            case 3:
+                console.log(n1 + " * " + n2 + " = " + (n1 * n2));
+            case 4:
+                console.log(n1 + " / " + n2 + " = " + (n1 / n2));
+            default:
+                console.log("Código Inválido!");
+        }
+    </script>
 </body>
 
 </html>
