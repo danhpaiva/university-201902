@@ -12,4 +12,4 @@ If you can't read the language, you may not be able to understand the codes.<br>
 These codes were made from lists, and were carried out in an orderly manner. <br>
 I thank my professor Wesley Dias Maciel who gave me the exercises.<br>
 
-Perhaps I will return here in the future to redo some logic. ;)
+Perhaps I will return here in the future to redo some logic. (;
